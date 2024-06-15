@@ -12,7 +12,7 @@ function Home() {
   
   return (
     <>
-      <div name="Home" className=" max-w-screen-2xl container mx-auto px-4 md:px-20 my-10 md:my-10 bg-white">
+      <div name="Home" className=" max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 md:my-10 bg-white">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">{/* //order will check if imgae is left right or up down according to order assigned */}
             <span className="text-xl">Welcome</span>
