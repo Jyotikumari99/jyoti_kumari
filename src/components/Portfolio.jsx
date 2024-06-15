@@ -11,6 +11,8 @@ const Portfolio = () => {
           { skill: 'Javascript', percentage: 85 },
           { skill: 'Wordpress', percentage: 95 },
           { skill: 'MongoDb', percentage: 70 },
+          { skill: 'Next Js', percentage: 90 },
+          { skill: 'Bootstrap', percentage: 90 },
         ];
       
         return (
