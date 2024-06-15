@@ -14,11 +14,11 @@ function Footer() {
                 Where to find me
               </h5>
               <p className="text-base mt-2">
-                Jaypee University of Engineering & Technology
+                Jhansi Uttar Pradesh 
                 <br />
-                Guna, MP
+                India
                 <br />
-                473226 India
+                284003, India
               </p>
             </div>
 
