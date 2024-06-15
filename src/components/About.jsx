@@ -29,7 +29,7 @@ const About = () => {
                 percentage: "90%",
               },
               {
-                title: "Bachelor of Technology",
+                title: "Bachelor of Technology-Computer Science",
                 period: "November 2020 - June 2024",
                 institution: "Jaypee University of Engineering and Technology, Guna",
                 percentage: "89%",
