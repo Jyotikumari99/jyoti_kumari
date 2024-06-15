@@ -27,7 +27,7 @@ function Contact() {
     
   return (
     <>
-      <div
+      <div 
         name="Contact"
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-10 bg-white text-center"
       >
@@ -101,7 +101,7 @@ function Contact() {
                
               />
             </div>
-            <button className="border-2 rounded mt-10 hover:bg-cyan-500 hover:text-white p-2 font-bold block mx-auto">
+            <button className="border-2 rounded mt-10 border-cyan-500 hover:bg-cyan-500 text-cyan-500 hover:text-white p-2 font-bold block mx-auto">
               Submit
             </button>
           </form>

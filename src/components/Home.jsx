@@ -12,7 +12,7 @@ function Home() {
   
   return (
     <>
-      <div name="Home" className=" max-w-screen-2xl container mx-auto px-4 md:px-20 my-10 md:my-0 bg-white">
+      <div name="Home" className=" max-w-screen-2xl container mx-auto px-4 md:px-20 my-10 md:my-10 bg-white">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">{/* //order will check if imgae is left right or up down according to order assigned */}
             <span className="text-xl">Welcome</span>
@@ -35,10 +35,15 @@ function Home() {
               Looking for a good Job Opportunity to apply my theoritical
               knowledge in real life projects.
             </p>
-
-            <button className="border-2 rounded p-2 text-bold cursor-pointer text-cyan-500 mt-3">
+            <a href="#contact">
+            <button  className="border-2 border-cyan-500 hover:bg-cyan-500 hover:text-white  rounded p-2 font-bold cursor-pointer text-cyan-500 mt-3">
               Explore
             </button>
+</a>
+
+            {/* <button name="Contact" className="border-2 border-cyan-500  rounded p-2 text-bold cursor-pointer text-cyan-500 mt-3">
+              Explore
+            </button> */}
 
             {/* social media icon */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0 ">
@@ -46,24 +51,24 @@ function Home() {
               <h1 className="font-bold ">Available on </h1>
               <ul className="flex space-x-5">
                 <li >
-                  <a href="https://www.linkedin.com/in/jyotikumari0/ " target="_blank"><GrLinkedin  className="text-2xl cursor-pointer"/>
+                  <a href="https://www.linkedin.com/in/jyotikumari0/ " target="_blank"><GrLinkedin  className="text-2xl cursor-pointer text-cyan-500 hover:text-cyan-700"/>
                   </a>
                   </li>
                 <li>
                   {" "}
-                <a href="https://github.com/Jyotikumari99"target="_blank">  <FaGithub className="text-2xl cursor-pointer"/></a>
+                <a href="https://github.com/Jyotikumari99"target="_blank">  <FaGithub className="text-2xl cursor-pointer text-cyan-500 hover:text-cyan-700"/></a>
                 </li>
               </ul>
             </div>
             <div className="space-y-2">
-            <h1 className="font-bold">Currently working on </h1>
-              <div className="flex space-x-5">
-              <FaReact classname='text-2xl md:text-2xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer'/>
-              <RiNextjsFill classname='text-2xl md:text-2xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer'/>
-              <RiTailwindCssFill classname='text-2xl md:text-2xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer'/>
-              <FaWordpress classname='text-2xl md:text-2xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer'/>
-              </div>
-            </div>
+      <h1 className="font-bold">Currently working on</h1>
+      <div className="flex space-x-5">
+        <FaReact className="text-2xl md:text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" />
+        <RiNextjsFill className="text-2xl md:text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" />
+        <RiTailwindCssFill className="text-2xl md:text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" />
+        <FaWordpress className="text-2xl md:text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" />
+      </div>
+    </div>
             </div>
           </div>
           <div className="md:w-1/2 md:ml-52 md:mt-16 order-1 md:order-2">

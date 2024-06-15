@@ -4,7 +4,7 @@ import { FaGraduationCap } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div name="About" id="resume" className="py-10 bg-gray-50">
+    <div  name="About" id="resume " className="py-10 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-cyan-500">Education</h2>
