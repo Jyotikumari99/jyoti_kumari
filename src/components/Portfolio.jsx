@@ -89,7 +89,7 @@ const Portfolio = () => {
         <h1 className="text-center font-bold text-cyan-500 text-4xl">
           Project
         </h1>
-        <div className="flex flex-col md:flex-row justify-between mt-7 md:space-y-0 space-y-4 md:space-x-4">
+        <div className="flex flex-col md:flex-row justify-between mt-7 md:space-y-0 space-y-4 md:space-x-4 ">
           <div className="flex flex-col items-center md:flex-row hover:border-cyan-500 hover:scale-105 hover:border-2 md:w-1/2 w-full p-4">
             <div className="space-y-2">
               <a href="https://healthbooker1.vercel.app/">
