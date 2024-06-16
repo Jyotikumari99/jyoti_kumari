@@ -128,7 +128,7 @@ const Portfolio = () => {
                 <RiTailwindCssFill className="text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" />
                 <SiTypescript className="text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" />
                 <SiPrisma className="text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" />
-                <SiShadcnui className="text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" />
+                {/* <SiShadcnui className="text-2xl hover:scale-110 duration-200 rounded-full border-2 border-transparent cursor-pointer hover:border-cyan-500 text-cyan-500 hover:text-cyan-700" /> */}
               
               </div>
             </div>
